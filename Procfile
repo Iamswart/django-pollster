@@ -1,5 +1,1 @@
-# Text backup files
-*.bak
-
-# Database
-*.sqlite3
+web: gunicorn pollster.wsgi --log-file -
